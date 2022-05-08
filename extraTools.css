@@ -68,7 +68,7 @@ select {
 */
 /* MOTD */
 div.form-group.row:nth-child(2) {
-	font-size: 0em; /* idk */
+	font-size: 0%;
 }
 div.form-group.row:nth-child(2) label::before {
 	content: 'Server MOTD';
