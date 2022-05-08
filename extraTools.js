@@ -32,7 +32,9 @@ function makeNavItem(text, icon, href) {
 	navbarChild.appendChild(node);
 	navbar.appendChild(navbarChild);
 }
-makeNavItem("My GitHub", "fab fa-github", "https://github.com/zNotChill")
-makeNavItem("Skript Dir", "nav-icon fas fa-folder", "https://playerservers.com/dashboard/filemanager/&dir=/plugins/Skript/scripts")
+window.onload = () => {
+	makeNavItem("My GitHub", "fab fa-github", "https://github.com/zNotChill")
+	makeNavItem("Skript Dir", "nav-icon fas fa-folder", "https://playerservers.com/dashboard/filemanager/&dir=/plugins/Skript/scripts")
+}
 /*
 */
