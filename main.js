@@ -3,19 +3,8 @@
 
 
 $(document).ready(function(){
-	console.log(`%cBetterPS\n%cYou may see "Kept Alive (BetterPS)" spammed every 10 seconds, this is just to validate your cookies.`, "color: #fb8c248f!important; font-size: 2rem;", "color: #fff;")
-	window.setInterval(function(){
-			$.getJSON('/queries/alerts', function(data) {
-				// GET COOKIES (NEVER STORED, YOU CAN SEE FOR YOURSELF)
-					const cookies = document.cookie.toString().split(" ")
-					const cookieValues = [];
-					for (let i = 0; i < cookies.length; i++) {
-						const split = cookies[i].split("=")// Title and value
-						
-					}
-					console.log(`Kept Alive (BetterPS)`);
-			});
-	}, 10000);
+	const READY_COOKIES = document.cookie
+	console.log(`%cBetterPS\n%cPage loaded using ${window.clientInformation['userAgentData'].brands[2].brand} version ${window.clientInformation['userAgentData'].brands[2].version}`, "color: #fb8c248f!important; font-size: 2rem;", "color:#fff;")
 });
 
 					
