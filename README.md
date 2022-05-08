@@ -6,7 +6,7 @@
 A free-to-use extension for making CubedCraft's PlayerServers website even better!
 
 # Other Versions
- ## [Safari](https://github.com/BlockArchitech/BetterPS-Safari) - by [BlockArchitech](https://github.com/BlockArchitech)
+ * [Safari](https://github.com/BlockArchitech/BetterPS-Safari) - by [BlockArchitech](https://github.com/BlockArchitech)
 
 # QoL Features
 This extension adds even more to the navigation bar, including a Skript Directory option! Allowing for less inconvenience whilst you update Skript files.
