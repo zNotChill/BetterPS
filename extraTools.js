@@ -35,6 +35,7 @@ function makeNavItem(text, icon, href) {
 window.onload = () => {
 	makeNavItem("My GitHub", "fab fa-github", "https://github.com/zNotChill")
 	makeNavItem("Skript Dir", "nav-icon fas fa-folder", "https://playerservers.com/dashboard/filemanager/&dir=/plugins/Skript/scripts")
+	makeNavItem("spigot.yml", "nav-icon fas fa-file", "https://playerservers.com/dashboard/filemanager/&action=edit&medit=/spigot.yml")
 }
 /*
 */
