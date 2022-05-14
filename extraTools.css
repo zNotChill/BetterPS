@@ -10,14 +10,14 @@ ul.nav.nav-pills.nav-sidebar.flex-column hr::before {
 }
 i.fa.fa-folder {
 	color: #fb8c248f!important;
-	background-color: #fff;
+	background-color: #525252!important;
 	border-radius: 50%;
 	padding: 5px;
 	object-fit: cover;
 }
 i.fa.fa-file {
 	color: #fb8c248f!important;
-	background-color: #fff;
+	background-color: #525252!important;
 	border-radius: 50%;
 	padding-left: 7px;
 	padding-right: 7px;
@@ -79,4 +79,14 @@ div.form-group.row:nth-child(2) label::before {
 	content: "INFO"!important;
 	font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
+}
+
+.table td, .table th {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: none!important;
+}
+
+a.nav-link[href="/account/credits"] {
+	color: orange!important;
 }
